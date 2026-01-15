@@ -16,7 +16,7 @@ st.set_page_config(
 st.title("Uber Rides Data Analysis Dashboard")
 
 # Load Data
-df = load_data("C:\Users\ARPIT RAJPUROHIT\OneDrive\Documents\uber rides data analysis project\data\uber_rides.csv")
+df = load_data("data/uber_rides.csv")
 df = preprocess_data(df)
 
 # Sidebar Filters
@@ -66,3 +66,4 @@ with tab3:
 
 st.markdown("---")
 st.caption("Built with ❤️ using Streamlit | Uber Data Analysis")
+
